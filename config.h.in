@@ -1,0 +1,13 @@
+#ifndef SPREAD_CONFIG_H
+#define SPREAD_CONFIG_H
+#cmakedefine HAVE_PRINTF_S @HAVE_PRINTF_S@
+#define VERSION "@SPREAD_VERSION@"
+#cmakedefine HAVE_SSCANF_S @HAVE_SSCANF_S@
+#cmakedefine SIZE_OF_TIME_T @SIZE_OF_TIME_T@
+#cmakedefine HAVE_MIN @HAVE_MIN@
+#cmakedefine HAVE__MKGMTIME @HAVE__MKGMTIME@
+#cmakedefine HAVE_TIMEGM @HAVE_TIMEGM@
+#cmakedefine HAVE_GMTIME_S @HAVE_GMTIME_S@
+#cmakedefine HAVE_LOCALTIME_S @HAVE_LOCALTIME_S@
+#cmakedefine HAVE_VPRINTF_S @HAVE_VPRINTF_S@
+#endif
